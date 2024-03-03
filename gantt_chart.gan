@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Machine Vision-Based Anti-Backscatter Lighting System for Unmanned Underwater Vehicles" company="Sidharth Shanmugam MEng Project 2023/24" webLink="https://github.com/Sidharth-Shanmugam-MEng-Project-2023-24/project-timeline" view-date="2024-02-26" view-index="0" gantt-divider-location="504" resource-divider-location="300" version="3.3.3305" locale="en_GB">
+<?xml version="1.0" encoding="UTF-8"?><project name="Machine Vision-Based Anti-Backscatter Lighting System for Unmanned Underwater Vehicles" company="Sidharth Shanmugam MEng Project 2023/24" webLink="https://github.com/Sidharth-Shanmugam-MEng-Project-2023-24/project-timeline" view-date="2024-02-26" view-index="0" gantt-divider-location="665" resource-divider-location="300" version="3.3.3305" locale="en_GB">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Name" width="323" order="0"/>
-        <field id="tpd4" name="Begin date" width="88" order="1"/>
-        <field id="tpd5" name="End date" width="91" order="2"/>
+        <field id="tpd3" name="Name" width="424" order="0"/>
+        <field id="tpd4" name="Begin date" width="118" order="1"/>
+        <field id="tpd5" name="End date" width="122" order="2"/>
         <field id="tpd15" name="Notes" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
-        <timeline><![CDATA[13,0,2,21,20,11,17,16,1,12,9,5,7,8,18,22,15,3,4,6,19]]></timeline>
+        <timeline><![CDATA[20,12,8,16,19,13,9,5,11,17,7,3,2,21,1,15,22,6,23,18,4,0]]></timeline>
         <option id="color.recent"><![CDATA[#999999 #eeeeee]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="209" order="0"/>
-        <field id="1" name="Default role" width="85" order="1"/>
+        <field id="0" name="Name" width="198" order="0"/>
+        <field id="1" name="Default role" width="81" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -92,7 +92,9 @@
         </task>
         <task id="19" uid="61b0c84778f849b3b3fba7b3f3e8d8d5" name="[MILESTONE] Software V3" meeting="true" start="2024-05-06" duration="0" complete="0" expand="true">
             <depend id="17" type="2" difference="0" hardness="Strong"/>
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
         </task>
+        <task id="23" uid="9980b6c9c860426c81a04c4b7520a00b" name="[TASK] Underwater testing" meeting="false" start="2024-05-06" duration="5" complete="0" expand="true"/>
         <task id="17" uid="c164aaea990444d992befeecf3ed04b1" name="[TASK] Evaluate V3 performance and write final report" meeting="false" start="2024-05-06" duration="10" complete="0" expand="true">
             <depend id="0" type="2" difference="0" hardness="Strong"/>
         </task>
@@ -129,6 +131,7 @@
         <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="18" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous>
