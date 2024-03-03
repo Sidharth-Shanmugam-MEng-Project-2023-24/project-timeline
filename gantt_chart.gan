@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Machine Vision-Based Anti-Backscatter Lighting System for Unmanned Underwater Vehicles" company="Sidharth Shanmugam MEng Project 2023/24" webLink="https://github.com/Sidharth-Shanmugam-MEng-Project-2023-24/project-timeline" view-date="2024-02-26" view-index="0" gantt-divider-location="665" resource-divider-location="300" version="3.3.3305" locale="en_GB">
+<?xml version="1.0" encoding="UTF-8"?><project name="Machine Vision-Based Anti-Backscatter Lighting System for Unmanned Underwater Vehicles" company="Sidharth Shanmugam MEng Project 2023/24" webLink="https://github.com/Sidharth-Shanmugam-MEng-Project-2023-24/project-timeline" view-date="2024-02-19" view-index="0" gantt-divider-location="647" resource-divider-location="300" version="3.3.3305" locale="en_GB">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Name" width="424" order="0"/>
-        <field id="tpd4" name="Begin date" width="118" order="1"/>
-        <field id="tpd5" name="End date" width="122" order="2"/>
+        <field id="tpd3" name="Name" width="411" order="0"/>
+        <field id="tpd4" name="Begin date" width="115" order="1"/>
+        <field id="tpd5" name="End date" width="119" order="2"/>
         <field id="tpd15" name="Notes" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
-        <timeline><![CDATA[20,12,8,16,19,13,9,5,11,17,7,3,2,21,1,15,22,6,23,18,4,0]]></timeline>
+        <timeline><![CDATA[9,11,5,6,21,16,2,19,3,4,22,15,13,8,17,7,12,1,20,0,23,18]]></timeline>
         <option id="color.recent"><![CDATA[#999999 #eeeeee]]></option>
     </view>
     <view id="resource-table">
@@ -67,7 +67,7 @@
         <task id="11" uid="e15fec57c9144e74ae5b407270513ad4" name="[TASK] Project holes and mitigate parallax (soft. V2)" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true">
             <depend id="16" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="15" uid="673acde396544b96938675257efce753" name="[TASK] Research and implement Kalman filter (soft. V2)" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true">
+        <task id="15" uid="673acde396544b96938675257efce753" name="[TASK] Research and implement tracking (soft. V2)" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true">
             <depend id="16" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="16" uid="9d1798767e1e465ab58aad826c9a62ae" name="[BUFFER] Handle backlog/evaluate RT perfomance of V2" color="#999999" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true">
