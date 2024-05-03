@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Machine Vision-Based Anti-Backscatter Lighting System for Unmanned Underwater Vehicles" company="Sidharth Shanmugam MEng Project 2023/24" webLink="https://github.com/Sidharth-Shanmugam-MEng-Project-2023-24/project-timeline" view-date="2024-03-11" view-index="0" gantt-divider-location="585" resource-divider-location="300" version="3.3.3305" locale="en_GB">
+<?xml version="1.0" encoding="UTF-8"?><project name="Machine Vision-Based Anti-Backscatter Lighting System for Unmanned Underwater Vehicles" company="Sidharth Shanmugam MEng Project 2023/24" webLink="https://github.com/Sidharth-Shanmugam-MEng-Project-2023-24/project-timeline" view-date="2024-03-11" view-index="0" gantt-divider-location="577" resource-divider-location="300" version="3.3.3307" locale="en_GB">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Name" width="361" order="0"/>
+        <field id="tpd3" name="Name" width="353" order="0"/>
         <field id="tpd4" name="Begin date" width="109" order="1"/>
         <field id="tpd5" name="End date" width="113" order="2"/>
         <field id="tpd15" name="Notes" width="20" order="3"/>
@@ -9,7 +9,7 @@
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
-        <timeline><![CDATA[12,5,15,1,23,8,7,22,18,2,9,13,19,4,17,3,20,0,21]]></timeline>
+        <timeline><![CDATA[5,4,18,8,0,22,23,3,7,12,1,2]]></timeline>
         <option id="color.recent"><![CDATA[#999999 #eeeeee]]></option>
     </view>
     <view id="resource-table">
@@ -40,62 +40,51 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="3" uid="32843fad4e9e41aa9460e33dbc449307" name="[TASK] Record test footage" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true">
+        <task id="3" uid="32843fad4e9e41aa9460e33dbc449307" name="[TASK] Record test footage" meeting="false" start="2024-03-18" duration="5" complete="100" expand="true">
             <depend id="5" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="4" uid="7814a8e2aaac47d0a8eafd4ca1ac5330" name="[TASK] Research real-time metrics and implement in V1" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true">
+        <task id="4" uid="7814a8e2aaac47d0a8eafd4ca1ac5330" name="[TASK] Research real-time metrics and implement in V1" meeting="false" start="2024-03-18" duration="5" complete="100" expand="true">
             <depend id="5" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="5" uid="3e504b97e2a54c7c8c640c3207f96379" name="[MILESTONE] Software V1" meeting="true" start="2024-03-25" duration="0" complete="0" expand="true">
+        <task id="5" uid="3e504b97e2a54c7c8c640c3207f96379" name="[MILESTONE] Software V1" meeting="true" start="2024-03-25" duration="0" complete="100" expand="true">
             <depend id="7" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="7" uid="1c51bfc1932941b798029a4a44f6fe0a" name="[BUFFER] Handle backlog/Easter break" color="#999999" meeting="false" start="2024-03-25" duration="15" complete="0" expand="true">
+        <task id="7" uid="1c51bfc1932941b798029a4a44f6fe0a" name="[BUFFER] Handle backlog/Easter break" color="#999999" meeting="false" start="2024-03-25" duration="15" complete="100" expand="true">
             <depend id="8" type="2" difference="0" hardness="Strong"/>
-            <depend id="9" type="2" difference="0" hardness="Strong"/>
-            <depend id="15" type="2" difference="0" hardness="Strong"/>
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="8" uid="7a3f73c39f524467852e90f9d5a35b2d" name="[TASK] Implement PREEMPT-RT" meeting="false" start="2024-04-15" duration="3" complete="0" expand="true">
-            <depend id="13" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="9" uid="b3c98204594f465a9a7cfff28c2c94b3" name="[TASK] Implement snake method (soft. V2)" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true">
-            <depend id="13" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="15" uid="673acde396544b96938675257efce753" name="[TASK] Research and implement tracking (soft. V2)" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true">
-            <depend id="13" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="13" uid="0ed009b1df924065b3762581efba66ed" name="[MILESTONE] Software V2" meeting="true" start="2024-04-22" duration="0" complete="0" expand="true">
+        <task id="8" uid="7a3f73c39f524467852e90f9d5a35b2d" name="[TASK] Implement PREEMPT-RT" meeting="false" start="2024-04-15" duration="5" complete="100" expand="true">
             <depend id="12" type="2" difference="0" hardness="Strong"/>
-            <depend id="20" type="2" difference="0" hardness="Strong"/>
-            <depend id="21" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="12" uid="76bdea8d9884471585ffd38bb81592ea" name="[TASK] Prepare demonstration" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true">
-            <depend id="1" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="1" uid="6cc10adc32604fe69e3a0dee47e5bee1" name="[DELIVERABLE] Demonstration" meeting="true" start="2024-04-29" duration="0" complete="0" priority="4" expand="true"/>
-        <task id="20" uid="cd05c26e42f5459c8447216765c1f971" name="[TASK] Research and implement non-ML predictions (soft. V3)" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true">
-            <depend id="22" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="21" uid="1f478648d3fa4cac9eb04ad3fd8440bd" name="[TASK] Research and implement ML predictions (soft. V3)" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true">
-            <depend id="22" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="22" uid="4c133b8b9f0a48e9ac3068589ca61dcf" name="[BUFFER] Handle backlog" color="#999999" meeting="false" start="2024-04-29" duration="5" complete="0" expand="true">
-            <depend id="19" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="19" uid="61b0c84778f849b3b3fba7b3f3e8d8d5" name="[MILESTONE] Software V3" meeting="true" start="2024-05-06" duration="0" complete="0" expand="true">
-            <depend id="17" type="2" difference="0" hardness="Strong"/>
             <depend id="23" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="23" uid="9980b6c9c860426c81a04c4b7520a00b" name="[TASK] Underwater testing" meeting="false" start="2024-05-06" duration="5" complete="0" expand="true"/>
-        <task id="17" uid="c164aaea990444d992befeecf3ed04b1" name="[TASK] Evaluate V3 performance and write final report" meeting="false" start="2024-05-06" duration="10" complete="0" expand="true">
+        <task id="24" uid="bf76fbc1c45f4fe2bf701648077079d1" name="[TASK] Implement multiprocessing" color="#8cb6ce" meeting="false" start="2024-04-15" duration="5" complete="100" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="23" uid="9980b6c9c860426c81a04c4b7520a00b" name="[TASK] Underwater test recording" meeting="false" start="2024-04-22" duration="3" complete="100" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" uid="76bdea8d9884471585ffd38bb81592ea" name="[TASK] Prepare demonstration" meeting="false" start="2024-04-22" duration="3" complete="100" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="6cc10adc32604fe69e3a0dee47e5bee1" name="[DELIVERABLE] Demonstration" meeting="true" start="2024-04-25" duration="0" complete="100" priority="4" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" uid="4c133b8b9f0a48e9ac3068589ca61dcf" name="[BUFFER] Handle backlog" color="#999999" meeting="false" start="2024-04-25" duration="15" complete="0" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" uid="0743ebf70a7a45b2bfd128647f3ea89b" name="[TASK] Write final report" color="#8cb6ce" meeting="false" start="2024-04-25" duration="17" complete="0" expand="true">
             <depend id="0" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="0" uid="94df8bc1474f4994ba14828f292c2166" name="[DELIVERABLE] Final Report" meeting="true" start="2024-05-20" duration="0" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
             <depend id="18" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="18" uid="48f9e69602474cc9acc9a7266e60d373" name="[TASK] Prepare presentation for viva" meeting="false" start="2024-05-20" duration="10" complete="0" expand="true">
+        <task id="18" uid="48f9e69602474cc9acc9a7266e60d373" name="[TASK] Prepare presentation for viva" meeting="false" start="2024-05-20" duration="8" complete="0" expand="true">
             <depend id="2" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="2" uid="6e5d75886f514805a6a6aa90b02cbbe2" name="[DELIVERABLE] Presentation/Viva" meeting="true" start="2024-06-03" duration="0" complete="0" expand="true"/>
+        <task id="2" uid="6e5d75886f514805a6a6aa90b02cbbe2" name="[DELIVERABLE] Presentation/Viva" meeting="true" start="2024-05-30" duration="0" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Sidharth Shanmugam" function="Default:1" contacts="" phone=""/>
@@ -106,20 +95,15 @@
         <allocation task-id="5" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="7" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="8" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="9" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="15" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="13" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="1" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="20" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="21" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="22" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="19" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="17" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="18" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="23" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous>
